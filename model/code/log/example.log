@@ -1,0 +1,29 @@
+Loading example dataset...
+Loading text content...
+../data/example/
+example
+text
+label matrix shape: torch.Size([40, 8])
+done.
+Loading topic content...
+../data/example/
+example
+topic
+done.
+Loading entity content...
+../data/example/
+example
+entity
+done.
+Building graph...
+Num of edges: 930
+train, vali, test:  16 16 8
+Transfer to be transductive.
+
+
+No. 1 test.
+
+30
+30
+[torch.Size([512, 10]), torch.Size([10]), torch.Size([512]), torch.Size([25, 512]), torch.Size([25, 512]), torch.Size([16, 512]), torch.Size([512, 1]), torch.Size([512, 1]), torch.Size([512, 1]), torch.Size([512, 1]), torch.Size([512, 1]), torch.Size([512, 1]), torch.Size([100, 1]), torch.Size([50, 512]), torch.Size([50]), torch.Size([100, 1]), torch.Size([50, 512]), torch.Size([50]), torch.Size([100, 1]), torch.Size([50, 512]), torch.Size([50]), torch.Size([100, 1]), torch.Size([50, 10]), torch.Size([50]), torch.Size([100, 1]), torch.Size([50, 10]), torch.Size([50]), torch.Size([100, 1]), torch.Size([50, 10]), torch.Size([50])]
+Epoch: 0001 | loss: 2.4567 Ac:  12.50 P:   6.0 R:  16.7 F1:   7.3
